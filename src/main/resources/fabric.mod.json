@@ -11,7 +11,7 @@
   ],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/Obelisk_Fabric_1.16.2/icon.png",
+  "icon": "assets/obeliskmod/icon.png",
   "environment": "*",
   "entrypoints": {},
   "mixins": [
