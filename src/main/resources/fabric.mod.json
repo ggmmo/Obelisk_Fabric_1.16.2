@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "Obelisk_Fabric_1.16.2",
+  "id": "obeliskmod",
   "version": "${version}",
-  "name": "Obelisk_Fabric_1.16.2",
+  "name": "Obelisk",
   "description": "The primary mod for the development of the Obelisk Server",
   "authors": [
     "Intrepid249",
