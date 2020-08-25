@@ -6,7 +6,7 @@ import net.minecraft.client.render.model.ModelLoader;
 public class Obelisk implements ModInitializer {
     @Override
     public void onInitialize() {
-    //heyoo
+    //heyoo terp rept trep
     }
 
     private void registerItems() {
