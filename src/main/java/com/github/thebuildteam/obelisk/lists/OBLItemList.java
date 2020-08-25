@@ -11,9 +11,16 @@ public class OBLItemList {
     // ============== WEAPONS ==============
 
 
-    // ============== BLOCK ITEMS ==============
+    // ============================= BLOCK ITEMS =============================
+    // ========== INTERIOR DECORATION ==========
+    public static final Item EARTHENWARE_MUG = new BlockItem(OBLBlockList.EARTHENWARE_MUG, new Item.Settings()
+        .group(OBLItemGroups.INTERIOR_DECO));
+    public static final Item EARTHENWARE_PLATE = new BlockItem(OBLBlockList.EARTHENWARE_PLATE, new Item.Settings()
+        .group(OBLItemGroups.INTERIOR_DECO));
+    public static final Item EARTHENWARE_SET = new BlockItem(OBLBlockList.EARTHENWARE_SET, new Item.Settings()
+        .group(OBLItemGroups.INTERIOR_DECO));
     public static final Item WALLMOUNTED_CANDLESTICK = new BlockItem(OBLBlockList.WALLMOUNTED_CANDLESTICK, new Item.Settings()
-        .group(ItemGroup.MISC));
-
-
+        .group(OBLItemGroups.INTERIOR_DECO));
+    public static final Item MERCHANT_SIGN = new BlockItem(OBLBlockList.MERCHANT_SIGN, new Item.Settings()
+        .group(OBLItemGroups.INTERIOR_DECO));
 }

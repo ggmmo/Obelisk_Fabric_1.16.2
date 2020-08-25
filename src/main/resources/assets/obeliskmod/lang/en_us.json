@@ -1,3 +1,10 @@
 {
+  "block.obeliskmod.earthenware_mug": "Earthenware Mug",
+  "block.obeliskmod.earthenware_plate": "Earthenware Plate",
+  "block.obeliskmod.earthenware_set": "Earthenware Set",
+  "block.obeliskmod.candle_wallmounted": "Wall-Mounted Candlestick",
+  "block.obeliskmod.merchant_sign": "Merchant Sign",
+  "block.obeliskmod.merchant_sign.tooltip": "This item is a blank stand-in item that can be used as a placeholder to test block placement within the world",
 
+  "itemGroup.obeliskmod.interiordeco": "Interior Decoration"
 }

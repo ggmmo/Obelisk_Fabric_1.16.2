@@ -1,4 +1,4 @@
-package com.github.thebuildteam.obelisk.blocks;
+package com.github.thebuildteam.obelisk.blocks.interiordecoration;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
