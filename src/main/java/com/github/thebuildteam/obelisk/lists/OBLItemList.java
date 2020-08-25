@@ -2,7 +2,6 @@ package com.github.thebuildteam.obelisk.lists;
 
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 
 public class OBLItemList {
     // ============== TOOLS ==============
@@ -23,4 +22,10 @@ public class OBLItemList {
         .group(OBLItemGroups.INTERIOR_DECO));
     public static final Item MERCHANT_SIGN = new BlockItem(OBLBlockList.MERCHANT_SIGN, new Item.Settings()
         .group(OBLItemGroups.INTERIOR_DECO));
+
+    // ========== OBELISK BLOCKS ==========
+    public static final Item EARTH_OBELISK_BLOCK = new BlockItem(OBLBlockList.EARTH_OBELISK_BLOCK, new Item.Settings()
+        .group(OBLItemGroups.OBELISK_BLOCKS));
+    public static final Item EARTH_OBELISK_ORE = new BlockItem(OBLBlockList.EARTH_OBELISK_ORE, new Item.Settings()
+        .group(OBLItemGroups.OBELISK_BLOCKS));
 }

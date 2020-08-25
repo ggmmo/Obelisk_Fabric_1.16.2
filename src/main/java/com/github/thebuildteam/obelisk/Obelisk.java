@@ -2,7 +2,6 @@ package com.github.thebuildteam.obelisk;
 
 import com.github.thebuildteam.obelisk.lists.OBLBlockList;
 import com.github.thebuildteam.obelisk.lists.OBLItemList;
-import com.github.thebuildteam.obelisk.utility.VoxelShapeHelper;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -22,6 +21,9 @@ public class Obelisk implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier(modid, "earthenware_set"), OBLItemList.EARTHENWARE_SET);
         Registry.register(Registry.ITEM, new Identifier(modid, "candle_wallmounted"), OBLItemList.WALLMOUNTED_CANDLESTICK);
         Registry.register(Registry.ITEM, new Identifier(modid, "merchant_sign"), OBLItemList.MERCHANT_SIGN);
+
+        Registry.register(Registry.ITEM, new Identifier(modid, "earth_obelisk_block"), OBLItemList.EARTH_OBELISK_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(modid, "earth_obelisk_ore"), OBLItemList.EARTH_OBELISK_ORE);
     }
 
     private void registerBlocks() {
@@ -30,5 +32,8 @@ public class Obelisk implements ModInitializer {
         Registry.register(Registry.BLOCK, new Identifier(modid, "earthenware_set"), OBLBlockList.EARTHENWARE_SET);
         Registry.register(Registry.BLOCK, new Identifier(modid, "candle_wallmounted"), OBLBlockList.WALLMOUNTED_CANDLESTICK);
         Registry.register(Registry.BLOCK, new Identifier(modid, "merchant_sign"), OBLBlockList.MERCHANT_SIGN);
+
+        Registry.register(Registry.BLOCK, new Identifier(modid, "earth_obelisk_block"), OBLBlockList.EARTH_OBELISK_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(modid, "earth_obelisk_ore"), OBLBlockList.EARTH_OBELISK_ORE);
     }
 }

@@ -11,4 +11,9 @@ public class OBLItemGroups {
         new Identifier(Obelisk.modid, "interiordeco"))
             .icon(() -> new ItemStack(OBLItemList.EARTHENWARE_SET))
             .build();
+
+    public static final ItemGroup OBELISK_BLOCKS = FabricItemGroupBuilder.create(
+        new Identifier(Obelisk.modid, "obeliskblocks"))
+            .icon(() -> new ItemStack(OBLItemList.EARTH_OBELISK_BLOCK))
+            .build();
 }
