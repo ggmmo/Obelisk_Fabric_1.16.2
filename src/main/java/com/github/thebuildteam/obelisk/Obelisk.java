@@ -8,7 +8,7 @@ public class Obelisk implements ModInitializer {
     public void onInitialize() {
 
     }
-
+    //pale was here
     private void registerItems() {
 
     }
