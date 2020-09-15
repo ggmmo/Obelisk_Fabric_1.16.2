@@ -2,7 +2,6 @@ package com.github.thebuildteam.obelisk.registries;
 
 import com.github.thebuildteam.obelisk.Obelisk;
 import com.github.thebuildteam.obelisk.lists.OBLBlockList;
-import com.github.thebuildteam.obelisk.lists.OBLItemList;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 

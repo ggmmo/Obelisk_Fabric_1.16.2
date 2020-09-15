@@ -26,4 +26,5 @@ public class OBLBlockList {
         .hardness(18000000).resistance(3600000).lightLevel(15).materialColor(MaterialColor.GREEN));
     public static final Block EARTH_OBELISK_ORE = new Block(FabricBlockSettings.of(Material.STONE)
         .hardness(3).resistance(9));
+
 }
