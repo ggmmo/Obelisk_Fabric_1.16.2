@@ -5,6 +5,9 @@
   "block.obeliskmod.candle_wallmounted": "Wall-Mounted Candlestick",
   "block.obeliskmod.merchant_sign": "Merchant Sign",
   "block.obeliskmod.merchant_sign.tooltip": "This item is a blank stand-in item that can be used as a placeholder to test block placement within the world",
+  "block.obeliskmod.fire_obelisk_block": "Fire Obelisk Block",
+  "block.obeliskmod.fire_obelisk_ore": "Fire Obelisk Ore",
+  "block.obeliskmod.fire_obelisk_slab": "Fire Obelisk Slab",
 
   "itemGroup.obeliskmod.interiordeco": "Interior Decoration"
 }

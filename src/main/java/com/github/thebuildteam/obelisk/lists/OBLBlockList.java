@@ -2,9 +2,7 @@ package com.github.thebuildteam.obelisk.lists;
 
 import com.github.thebuildteam.obelisk.blocks.interiordecoration.*;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
-import net.minecraft.block.MaterialColor;
+import net.minecraft.block.*;
 
 public class OBLBlockList {
     // ========== INTERIOR DECORATION ==========
@@ -26,5 +24,14 @@ public class OBLBlockList {
         .hardness(18000000).resistance(3600000).lightLevel(15).materialColor(MaterialColor.GREEN));
     public static final Block EARTH_OBELISK_ORE = new Block(FabricBlockSettings.of(Material.STONE)
         .hardness(3).resistance(9));
+
+    public static final Block FIRE_OBELISK_BLOCK = new Block(FabricBlockSettings.of(Material.METAL)
+        .hardness(18000000).resistance(3600000).lightLevel(15));
+    public static final Block FIRE_OBELISK_ORE = new Block(FabricBlockSettings.of(Material.METAL)
+            .hardness(18000000).resistance(3600000).lightLevel(15));
+    public static final Block FIRE_OBELISK_SLAB = new SlabBlock(FabricBlockSettings.of(Material.METAL)
+        .hardness(18000000).resistance(3600000).lightLevel(15));
+    //public static final Block FIRE_OBELISK_STAIRS = new StairsBlock(FIRE_OBELISK_BLOCK.getDefaultState(),
+            //FabricBlockSettings.of(Material.METAL).hardness(18000000).resistance(3600000).lightLevel(15));
 
 }

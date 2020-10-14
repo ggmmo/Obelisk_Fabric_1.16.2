@@ -28,4 +28,11 @@ public class OBLItemList {
         .group(OBLItemGroups.OBELISK_BLOCKS));
     public static final Item EARTH_OBELISK_ORE = new BlockItem(OBLBlockList.EARTH_OBELISK_ORE, new Item.Settings()
         .group(OBLItemGroups.OBELISK_BLOCKS));
+
+    public static final Item FIRE_OBELISK_BLOCK = new BlockItem(OBLBlockList.FIRE_OBELISK_BLOCK, new Item.Settings()
+        .group(OBLItemGroups.OBELISK_BLOCKS));
+    public static final Item FIRE_OBELISK_ORE = new BlockItem(OBLBlockList.FIRE_OBELISK_ORE, new Item.Settings()
+        .group(OBLItemGroups.OBELISK_BLOCKS));
+    public static final Item FIRE_OBELISK_SLAB = new BlockItem(OBLBlockList.FIRE_OBELISK_SLAB, new Item.Settings()
+        .group(OBLItemGroups.OBELISK_BLOCKS));
 }

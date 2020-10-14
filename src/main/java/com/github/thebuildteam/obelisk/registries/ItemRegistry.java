@@ -1,6 +1,8 @@
 package com.github.thebuildteam.obelisk.registries;
 
 import com.github.thebuildteam.obelisk.Obelisk;
+import com.github.thebuildteam.obelisk.lists.OBLBlockList;
+import com.github.thebuildteam.obelisk.lists.OBLItemGroups;
 import com.github.thebuildteam.obelisk.lists.OBLItemList;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -12,7 +14,12 @@ public class ItemRegistry {
         Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "earthenware_set"), OBLItemList.EARTHENWARE_SET);
         Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "candle_wallmounted"), OBLItemList.WALLMOUNTED_CANDLESTICK);
         Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "merchant_sign"), OBLItemList.MERCHANT_SIGN);
+
         Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "earth_obelisk_block"), OBLItemList.EARTH_OBELISK_BLOCK);
         Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "earth_obelisk_ore"), OBLItemList.EARTH_OBELISK_ORE);
+        
+        Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "fire_obelisk_block"), OBLItemList.FIRE_OBELISK_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "fire_obelisk_ore"), OBLItemList.FIRE_OBELISK_ORE);
+        Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "fire_obelisk_slab"), OBLItemList.FIRE_OBELISK_SLAB);
     }
 }
