@@ -35,6 +35,10 @@ public class ItemRegistry {
         
         Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "fire_obelisk_block"), OBLItemList.FIRE_OBELISK_BLOCK);
         Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "fire_obelisk_ore"), OBLItemList.FIRE_OBELISK_ORE);
+        Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "fire_obelisk_wall"), OBLItemList.FIRE_OBELISK_WALL);
         Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "fire_obelisk_slab"), OBLItemList.FIRE_OBELISK_SLAB);
+        Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "fire_obelisk_stairs"), OBLItemList.FIRE_OBELISK_STAIRS);
+        Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "fire_obelisk_fence"), OBLItemList.FIRE_OBELISK_FENCE);
+
     }
 }

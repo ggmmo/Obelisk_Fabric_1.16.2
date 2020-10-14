@@ -19,7 +19,10 @@
   "block.obeliskmod.earth_obelisk_fence": "Earth Obelisk Fence",
   "block.obeliskmod.fire_obelisk_block": "Fire Obelisk Block",
   "block.obeliskmod.fire_obelisk_ore": "Fire Obelisk Ore",
+  "block.obeliskmod.fire_obelisk_wall": "Fire Obelisk Wall",
   "block.obeliskmod.fire_obelisk_slab": "Fire Obelisk Slab",
+  "block.obeliskmod.fire_obelisk_stairs": "Fire Obelisk Stairs",
+  "block.obeliskmod.fire_obelisk_fence": "Fire Obelisk Fence",
 
   "itemGroup.obeliskmod.interiordeco": "Interior Decoration",
   "itemGroup.obeliskmod.obeliskblocks": "Obelisk Blocks",

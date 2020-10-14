@@ -1,6 +1,7 @@
 package com.github.thebuildteam.obelisk.lists;
 
 import com.github.thebuildteam.obelisk.blocks.interiordecoration.*;
+import com.github.thebuildteam.obelisk.blocks.obelisk.OBLFenceBlock;
 import com.github.thebuildteam.obelisk.blocks.obelisk.OBLStairsBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -37,6 +38,19 @@ public class OBLBlockList {
         .hardness(18000000).resistance(3600000).lightLevel(15));
     public static final Block EARTH_OBELISK_STAIRS = new OBLStairsBlock(EARTH_OBELISK_BLOCK.getDefaultState(), FabricBlockSettings.of(Material.METAL)
         .hardness(18000000).resistance(3600000).lightLevel(15));
-    public static final Block EARTH_OBELISK_FENCE = new FenceBlock(FabricBlockSettings.of(Material.METAL)
+    public static final Block EARTH_OBELISK_FENCE = new OBLFenceBlock(FabricBlockSettings.of(Material.METAL)
+        .hardness(18000000).resistance(3600000).lightLevel(15));
+
+    public static final Block FIRE_OBELISK_BLOCK = new Block(FabricBlockSettings.of(Material.METAL)
+        .hardness(18000000).resistance(3600000).lightLevel(15));
+    public static final Block FIRE_OBELISK_ORE = new Block(FabricBlockSettings.of(Material.STONE)
+        .hardness(3).resistance(9));
+    public static final Block FIRE_OBELISK_WALL = new Block(FabricBlockSettings.of(Material.METAL)
+        .hardness(18000000).resistance(3600000).lightLevel(15));
+    public static final Block FIRE_OBELISK_SLAB = new SlabBlock(FabricBlockSettings.of(Material.METAL)
+        .hardness(18000000).resistance(3600000).lightLevel(15));
+    public static final Block FIRE_OBELISK_STAIRS = new OBLStairsBlock(FIRE_OBELISK_BLOCK.getDefaultState(), FabricBlockSettings.of(Material.METAL)
+        .hardness(18000000).resistance(3600000).lightLevel(15));
+    public static final Block FIRE_OBELISK_FENCE = new OBLFenceBlock(FabricBlockSettings.of(Material.METAL)
         .hardness(18000000).resistance(3600000).lightLevel(15));
 }
