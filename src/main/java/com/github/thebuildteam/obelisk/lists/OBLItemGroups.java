@@ -16,4 +16,9 @@ public class OBLItemGroups {
         new Identifier(Obelisk.modid, "obeliskblocks"))
             .icon(() -> new ItemStack(OBLItemList.EARTH_OBELISK_BLOCK))
             .build();
+
+    public static final ItemGroup MISCELLANEOUS = FabricItemGroupBuilder.create(
+        new Identifier(Obelisk.modid, "obeliscmisc"))
+            .icon(() -> new ItemStack(OBLItemList.COPPER_COIN))
+            .build();
 }

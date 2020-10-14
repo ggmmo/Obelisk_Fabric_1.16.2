@@ -15,6 +15,10 @@ public class BlockRegistry {
 
         Registry.register(Registry.BLOCK, new Identifier(Obelisk.modid, "earth_obelisk_block"), OBLBlockList.EARTH_OBELISK_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(Obelisk.modid, "earth_obelisk_ore"), OBLBlockList.EARTH_OBELISK_ORE);
+        Registry.register(Registry.BLOCK, new Identifier(Obelisk.modid, "earth_obelisk_wall"), OBLBlockList.EARTH_OBELISK_WALL);
+        Registry.register(Registry.BLOCK, new Identifier(Obelisk.modid, "earth_obelisk_slab"), OBLBlockList.EARTH_OBELISK_SLAB);
+        Registry.register(Registry.BLOCK, new Identifier(Obelisk.modid, "earth_obelisk_stairs"), OBLBlockList.EARTH_OBELISK_STAIRS);
+        Registry.register(Registry.BLOCK, new Identifier(Obelisk.modid, "earth_obelisk_fence"), OBLBlockList.EARTH_OBELISK_FENCE);
 
         Registry.register(Registry.BLOCK, new Identifier(Obelisk.modid, "fire_obelisk_block"), OBLBlockList.FIRE_OBELISK_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(Obelisk.modid, "fire_obelisk_ore"), OBLBlockList.FIRE_OBELISK_ORE);
