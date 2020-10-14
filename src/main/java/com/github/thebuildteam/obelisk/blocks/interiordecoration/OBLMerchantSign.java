@@ -1,24 +1,31 @@
 package com.github.thebuildteam.obelisk.blocks.interiordecoration;
 
 import com.github.thebuildteam.obelisk.Obelisk;
+import com.github.thebuildteam.obelisk.lists.OBLProperties;
+import com.github.thebuildteam.obelisk.properties.OBLMerchantSignType;
 import com.github.thebuildteam.obelisk.utility.VoxelShapeHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.HorizontalFacingBlock;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.client.item.TooltipContext;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.Properties;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
+import net.minecraft.util.ActionResult;
 import net.minecraft.util.Formatting;
+import net.minecraft.util.Hand;
+import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
+import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -28,6 +35,9 @@ public class OBLMerchantSign extends HorizontalFacingBlock {
 
     public OBLMerchantSign(Settings settings) {
         super(settings);
+        setDefaultState(getDefaultState()
+                .with(Properties.HORIZONTAL_FACING, Direction.NORTH)
+                .with(OBLProperties.MERCHANT_SIGN_TYPE, OBLMerchantSignType.BLANK));
     }
 
     @Override
@@ -48,7 +58,9 @@ public class OBLMerchantSign extends HorizontalFacingBlock {
         BlockState blockstate =  super.getPlacementState(ctx);
 
         if (blockstate != null) {
-            blockstate =blockstate.with(Properties.HORIZONTAL_FACING, ctx.getPlayerFacing());
+            blockstate =blockstate
+                    .with(Properties.HORIZONTAL_FACING, ctx.getPlayerFacing())
+                    .with(OBLProperties.MERCHANT_SIGN_TYPE, OBLMerchantSignType.BLANK);
         }
 
         return blockstate;
@@ -57,5 +69,6 @@ public class OBLMerchantSign extends HorizontalFacingBlock {
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(Properties.HORIZONTAL_FACING);
+        builder.add(OBLProperties.MERCHANT_SIGN_TYPE);
     }
 }
