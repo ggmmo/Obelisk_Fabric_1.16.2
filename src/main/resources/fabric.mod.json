@@ -11,9 +11,19 @@
   ],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/Obelisk_Fabric_1.16.2/icon.png",
+  "icon": "assets/obeliskmod/icon.png",
   "environment": "*",
-  "entrypoints": {},
+  "entrypoints": {
+    "client": [
+      "com.github.thebuildteam.obelisk.client.ObeliskClient"
+    ],
+    "main": [
+      "com.github.thebuildteam.obelisk.Obelisk"
+    ],
+    "server": [
+      "com.github.thebuildteam.obelisk.server.ObeliskServer"
+    ]
+  },
   "mixins": [
     "Obelisk_Fabric_1.16.2.mixins.json"
   ],

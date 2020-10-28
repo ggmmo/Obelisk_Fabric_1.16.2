@@ -1,0 +1,30 @@
+{
+  "item.obeliskmod.copper_coin": "Copper Coin",
+  "item.obeliskmod.silver_coin": "Silver Coin",
+  "item.obeliskmod.gold_coin": "Gold Coin",
+  "item.obeliskmod.earth_ingot": "Earth Element Ingot",
+  "item.obeliskmod.fire_ingot": "Fire Element Ingot",
+
+  "block.obeliskmod.earthenware_mug": "Earthenware Mug",
+  "block.obeliskmod.earthenware_plate": "Earthenware Plate",
+  "block.obeliskmod.earthenware_set": "Earthenware Set",
+  "block.obeliskmod.candle_wallmounted": "Wall-Mounted Candlestick",
+  "block.obeliskmod.merchant_sign": "Merchant Sign",
+  "block.obeliskmod.merchant_sign.tooltip": "This item is a blank stand-in item that can be used as a placeholder to test block placement within the world",
+  "block.obeliskmod.earth_obelisk_block": "Earth Obelisk Block",
+  "block.obeliskmod.earth_obelisk_ore": "Earth Obelisk Ore",
+  "block.obeliskmod.earth_obelisk_wall": "Earth Obelisk Wall",
+  "block.obeliskmod.earth_obelisk_slab": "Earth Obelisk Slab",
+  "block.obeliskmod.earth_obelisk_stairs": "Earth Obelisk Stairs",
+  "block.obeliskmod.earth_obelisk_fence": "Earth Obelisk Fence",
+  "block.obeliskmod.fire_obelisk_block": "Fire Obelisk Block",
+  "block.obeliskmod.fire_obelisk_ore": "Fire Obelisk Ore",
+  "block.obeliskmod.fire_obelisk_wall": "Fire Obelisk Wall",
+  "block.obeliskmod.fire_obelisk_slab": "Fire Obelisk Slab",
+  "block.obeliskmod.fire_obelisk_stairs": "Fire Obelisk Stairs",
+  "block.obeliskmod.fire_obelisk_fence": "Fire Obelisk Fence",
+
+  "itemGroup.obeliskmod.interiordeco": "Interior Decoration",
+  "itemGroup.obeliskmod.obeliskblocks": "Obelisk Blocks",
+  "itemGroup.obeliskmod.obeliskmisc": "Obelisk Miscellaneous"
+}

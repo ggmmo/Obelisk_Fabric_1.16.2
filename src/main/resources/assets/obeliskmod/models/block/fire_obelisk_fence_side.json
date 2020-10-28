@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_side",
+    "textures": {
+        "texture": "obeliskmod:block/fire_obelisk_block"
+    }
+}

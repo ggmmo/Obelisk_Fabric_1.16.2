@@ -1,19 +1,15 @@
 package com.github.thebuildteam.obelisk;
 
+import com.github.thebuildteam.obelisk.registries.BlockRegistry;
+import com.github.thebuildteam.obelisk.registries.ItemRegistry;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.client.render.model.ModelLoader;
 
 public class Obelisk implements ModInitializer {
+    public static String modid = "obeliskmod";
+
     @Override
     public void onInitialize() {
-    //heyoo terp rept trep
-    }
-
-    private void registerItems() {
-
-    }
-
-    private void registerBlocks() {
-
+        ItemRegistry.register();
+        BlockRegistry.register();
     }
 }
