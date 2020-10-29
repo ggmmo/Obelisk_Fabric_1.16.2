@@ -57,4 +57,17 @@ public class OBLItemList {
         .group(OBLItemGroups.OBELISK_BLOCKS));
     public static final Item FIRE_OBELISK_FENCE = new BlockItem(OBLBlockList.FIRE_OBELISK_FENCE, new Item.Settings()
         .group(OBLItemGroups.OBELISK_BLOCKS));
+
+    // ========== DIRT BLOCKS ==========
+
+    public static final Item DIRT_SLAB = new BlockItem(OBLBlockList.DIRT_SLAB, new Item.Settings()
+        .group(OBLItemGroups.OBELISK_BLOCKS));
+    public static final Item DIRT_WALL = new BlockItem(OBLBlockList.DIRT_WALL, new Item.Settings()
+            .group(OBLItemGroups.OBELISK_BLOCKS));
+    public static final Item DIRT_STAIRS = new BlockItem(OBLBlockList.DIRT_STAIRS, new Item.Settings()
+            .group(OBLItemGroups.OBELISK_BLOCKS));
+    public static final Item DIRT_FENCE = new BlockItem(OBLBlockList.DIRT_FENCE, new Item.Settings()
+            .group(OBLItemGroups.OBELISK_BLOCKS));
+    public static final Item DIRT_SNOW = new BlockItem(OBLBlockList.DIRT_SNOW, new Item.Settings()
+            .group(OBLItemGroups.OBELISK_BLOCKS));
 }

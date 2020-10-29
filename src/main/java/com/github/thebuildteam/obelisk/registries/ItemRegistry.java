@@ -30,8 +30,6 @@ public class ItemRegistry {
         Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "earth_obelisk_slab"), OBLItemList.EARTH_OBELISK_SLAB);
         Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "earth_obelisk_stairs"), OBLItemList.EARTH_OBELISK_STAIRS);
         Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "earth_obelisk_fence"), OBLItemList.EARTH_OBELISK_FENCE);
-
-
         
         Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "fire_obelisk_block"), OBLItemList.FIRE_OBELISK_BLOCK);
         Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "fire_obelisk_ore"), OBLItemList.FIRE_OBELISK_ORE);
@@ -39,6 +37,13 @@ public class ItemRegistry {
         Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "fire_obelisk_slab"), OBLItemList.FIRE_OBELISK_SLAB);
         Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "fire_obelisk_stairs"), OBLItemList.FIRE_OBELISK_STAIRS);
         Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "fire_obelisk_fence"), OBLItemList.FIRE_OBELISK_FENCE);
+
+        // =============== DIRT BLOCKS ===============
+        Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "dirt_slab"), OBLItemList.DIRT_SLAB);
+        Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "dirt_wall"), OBLItemList.DIRT_WALL);
+        Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "dirt_stairs"), OBLItemList.DIRT_STAIRS);
+        Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "dirt_fence"), OBLItemList.DIRT_FENCE);
+        Registry.register(Registry.ITEM, new Identifier(Obelisk.modid, "dirt_snow"), OBLItemList.DIRT_SNOW);
 
     }
 }

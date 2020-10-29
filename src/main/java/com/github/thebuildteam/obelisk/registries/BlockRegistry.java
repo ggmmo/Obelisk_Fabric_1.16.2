@@ -26,5 +26,11 @@ public class BlockRegistry {
         Registry.register(Registry.BLOCK, new Identifier(Obelisk.modid, "fire_obelisk_slab"), OBLBlockList.FIRE_OBELISK_SLAB);
         Registry.register(Registry.BLOCK, new Identifier(Obelisk.modid, "fire_obelisk_stairs"), OBLBlockList.FIRE_OBELISK_STAIRS);
         Registry.register(Registry.BLOCK, new Identifier(Obelisk.modid, "fire_obelisk_fence"), OBLBlockList.FIRE_OBELISK_FENCE);
+
+        Registry.register(Registry.BLOCK, new Identifier(Obelisk.modid, "dirt_slab"), OBLBlockList.DIRT_SLAB);
+        Registry.register(Registry.BLOCK, new Identifier(Obelisk.modid, "dirt_wall"), OBLBlockList.DIRT_WALL);
+        Registry.register(Registry.BLOCK, new Identifier(Obelisk.modid, "dirt_stairs"), OBLBlockList.DIRT_STAIRS);
+        Registry.register(Registry.BLOCK, new Identifier(Obelisk.modid, "dirt_fence"), OBLBlockList.DIRT_FENCE);
+        Registry.register(Registry.BLOCK, new Identifier(Obelisk.modid, "dirt_snow"), OBLBlockList.DIRT_SNOW);
     }
 }

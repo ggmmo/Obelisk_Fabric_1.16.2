@@ -2,12 +2,10 @@ package com.github.thebuildteam.obelisk.lists;
 
 import com.github.thebuildteam.obelisk.blocks.interiordecoration.*;
 import com.github.thebuildteam.obelisk.blocks.obelisk.OBLFenceBlock;
+import com.github.thebuildteam.obelisk.blocks.obelisk.OBLSnowBlock;
 import com.github.thebuildteam.obelisk.blocks.obelisk.OBLStairsBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.FenceBlock;
-import net.minecraft.block.Material;
-import net.minecraft.block.SlabBlock;
+import net.minecraft.block.*;
 
 public class OBLBlockList {
     // ========== INTERIOR DECORATION ==========
@@ -53,4 +51,17 @@ public class OBLBlockList {
         .hardness(18000000).resistance(3600000).lightLevel(15));
     public static final Block FIRE_OBELISK_FENCE = new OBLFenceBlock(FabricBlockSettings.of(Material.METAL)
         .hardness(18000000).resistance(3600000).lightLevel(15));
+
+    // ========== DIRT BLOCKS ==========
+
+    public static final Block DIRT_SLAB = new SlabBlock(FabricBlockSettings.of(Material.ORGANIC_PRODUCT)
+            .hardness(18000000).resistance(3600000).lightLevel(15));
+    public static Block DIRT_WALL = new WallBlock(FabricBlockSettings.of(Material.ORGANIC_PRODUCT)
+            .hardness(18000000).resistance(3600000).lightLevel(15));
+    public static final Block DIRT_STAIRS = new OBLStairsBlock(DIRT_SLAB.getDefaultState(), FabricBlockSettings.of(Material.ORGANIC_PRODUCT)
+            .hardness(18000000).resistance(3600000).lightLevel(15));
+    public static final Block DIRT_SNOW = new OBLSnowBlock(FabricBlockSettings.of(Material.ORGANIC_PRODUCT)
+            .hardness(18000000).resistance(3600000).lightLevel(15));
+    public static Block DIRT_FENCE = new Block(FabricBlockSettings.of(Material.ORGANIC_PRODUCT)
+            .hardness(18000000).resistance(3600000).lightLevel(15));
 }
